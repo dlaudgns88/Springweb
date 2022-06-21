@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.test.dao.IF_boardDAO">
+	<insert id="insert" parameterType="com.test.VO.boardVO">
+		insert into write
+		values(write_seq.nextval,#{m_id},#{category},#{name},#{memo},sysdate,#{h_check},default,#{fname})
+	</insert>
+	<select id="boardlist" parameterType="com.test.VO.boardVO" resultType="com.test.VO.boardVO">
+		select * from write order by no desc
+	</select>
+	<select id="boardselect" parameterType="int" resultType="com.test.VO.boardVO">
+		select * from write where no=#{no}
+	</select>
+	<insert id="replyinsert" parameterType="com.test.VO.replyVO">
+		insert into reply01 values(reply01_seq.nextval,#{b_no},#{reg_id},#{r_memo},sysdate)
+	</insert>
+	<select id="replylist" parameterType="com.test.VO.replyVO" resultType="com.test.VO.replyVO">
+		select * from reply01 where b_no=#{b_no} order by r_no desc
+	</select>
+	<delete id="delete" parameterType="int">
+		delete from write where no=#{no}
+	</delete>
+	<update id="cntplus" parameterType="int">
+		update write set hit=hit+1 where no=#{no}
+	</update>
+	<delete id="likedelete" parameterType="com.test.VO.likeVO">
+		delete from likecheck01 where b_no=#{b_no} and id=#{id}
+	</delete>
+	<insert id="likeinsert" parameterType="com.test.VO.likeVO">
+		insert into likecheck01 values(#{b_no},#{id},#{onoff})
+	</insert>
+	<select id="likelist" parameterType="int" resultType="com.test.VO.likeVO">
+		select * from likecheck01 where b_no=#{b_no}
+	</select>
+	<select id="likeselectOne" parameterType="com.test.VO.likeVO" resultType="com.test.VO.likeVO">
+		select * from likecheck01 where id=#{id} and b_no=#{b_no}
+	</select>
+	<update id="updatereply" parameterType="com.test.VO.replyVO">
+		update reply01 set r_memo=#{r_memo} where r_no=#{r_no} 
+	</update>
+	<delete id="deletereply" parameterType="com.test.VO.replyVO">
+		delete from reply01 where r_no=#{r_no}
+	</delete>
+	<update id="updateboard" parameterType="com.test.VO.boardVO">
+		update write set name=#{name},memo=#{memo} where no=#{no} 
+	</update>
+	<select id="boardlist_cnt" resultType="int">
+		select count(*) from write
+	</select>
+	<select id="boardlistpaging" parameterType="com.test.VO.PageVO" resultType="com.test.VO.boardVO">
+		select * from (select rownum as numrow,sub.* from (select * from write order by r_date desc)sub) where numrow between #{startNo} and #{endNo}
+	</select>
+</mapper>

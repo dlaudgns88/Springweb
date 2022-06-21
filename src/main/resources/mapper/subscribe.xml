@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.test.dao.IF_subscribeDAO">
+	<insert id="insert">
+		insert into subscribe values(sub_seq.nextval,#{r_url},#{r_memo},#{fname},sysdate)
+	</insert>
+	<select id="listAll" parameterType="com.test.VO.subscribeVO" resultType="com.test.VO.subscribeVO">
+		select * from subscribe order by no desc
+	</select>
+	
+</mapper>

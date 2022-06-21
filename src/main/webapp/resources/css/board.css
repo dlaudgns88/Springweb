@@ -1,0 +1,403 @@
+@charset "UTF-8";
+
+.top-nav {
+	width: 100%;
+	height: 52px;
+	background-color : darkgray;
+	position: fixed;
+	height: 52px;
+}
+#nav-header {
+	width: 4%;
+	float: left;
+	
+}
+
+#nav-blank {
+	width: 80%;
+	height: 52px;
+	float: left;
+	
+}
+
+#nav-login {
+	width: 8%;
+	height: 52px;
+	float: left;
+
+	padding-top: 10px;
+	text-align: center;
+	cursor : pointer;
+}
+#nav-signup {
+	width: 8%;
+	height: 52px;
+	float: left;
+	cursor: pointer;
+	padding-top: 10px;
+	text-align: center;
+}
+.wrap{
+	width : 100%;
+	height : 100%;
+	background-color : red;
+}
+.board {
+	width : 80%;
+	height : 100%;
+	float : left;
+	
+}
+.box{
+	width : 20%;
+	float : left;
+	
+}
+
+
+.loginbox {
+	
+	width: 100%;
+	height: 270px;
+	background-color :	#FFFFFF;
+
+	display: none;
+	
+}
+
+.loginbox2 {
+	height: 270px;
+	width: 100%;
+	
+}
+.loginbox-title {
+	
+	height : 50px;
+	width : 100%;
+	
+	text-align : center;
+	
+}
+.loginbox-title2{
+	height : 50px;
+	width : 85%;
+	
+	float : left;
+	
+}
+.loginbox-title h5{
+	display : inline-block;
+}
+
+
+
+
+.logindata-form{
+	height : 220px;
+	width: 100%;
+	
+}
+.login-blank{
+	width : 10%;
+	height : 220px;
+	float : left;
+}
+.logindata{
+	width:80%;
+	height : 220px;
+	float : left;
+}
+.login-id{
+	padding-top : 10px;
+	width: 100%;	
+	height : 80px;	
+}		
+.login-pw{		
+	width: 100%;	
+	height : 70px;		
+}		
+.login-submit{		
+	
+	width: 100%;	
+	height : 70px;	
+}	
+.login-bt{
+	padding-top : 10px;
+	width : 45%;
+	height : 70px;
+	float : left;
+}
+.bt-blank{
+	width:10%;
+	height: 70px;
+	float : left;
+}
+
+.forgot-bt{
+	padding-top : 10px;
+	width : 45%;
+	height : 70px;
+	float : left;
+}
+.signupbox{
+	width: 100%;
+	height: 500px;
+	background-color :	#FFFFFF;
+	
+	display: none;
+}
+.signupbox-title{
+	height : 50px;
+	width : 100%;
+	background-color : darkgray;
+	text-align : center;
+}
+
+.signupbox-xbox{
+	
+}
+.signup-blank{
+	width : 10%;
+	height : 450px;
+	
+	float : left;
+}
+.signup-datainput{
+	width : 80%;
+	height : 450px;
+	float : left;
+	
+}
+
+.signup-menu{
+	padding-top:15px;
+	width : 100%;
+	height : 20%;
+}
+.signup-submit{
+	width : 100%;
+	height : 20%;
+	
+}
+.submit-blank{
+	width: 100%;
+	height : 20%;
+	
+}
+.submit-blank2{
+	width : 100%;
+	height : 60%;
+	
+}
+.blank2-blank{
+	width : 35%;
+	height: 100%;
+	
+	float : left;
+}
+.submit-bt{
+	padding-top:15px;
+	width : 30%;
+	height: 100%;
+	float : left;
+}
+.logonbox{
+	width: 100%;
+	height: 270px;
+	background-color : white;
+	
+}
+.logonbox-datawrap{
+	width: 100%;
+	height : 75%;
+	
+}
+.logonbox-btwrap{
+	width : 100%;
+	height: 25%;
+	
+}
+.logonbox-btwrap2{
+	width : 30%;
+	height : 100%;
+	
+	float : left;
+}
+.logonbox-btwrap3{
+	width : 70%;
+	height: 100%;
+	float : left;
+	
+}
+.logonbox-btwrap5{
+	width : 100%;
+	height: 50%;
+	
+	float : left;
+}
+.logonbox-btwrap4{
+	width : 33%;
+	height : 100%;
+	float : left;
+}
+.logonbox-data-img{
+	width: 30%;
+	height : 100%;
+	float : left;
+	
+}
+.logonbox-blank{
+	width:100%;
+	height: 25%;
+	background-color : gray;
+}
+.data-imgbox{
+	margin-top:7%;
+	margin-left:5%;
+	padding-top : 20%;
+	width:90%;
+	height:65%;
+	text-align: center;
+	border : 1px solid;
+}
+
+.logonbox-datawrap2{
+	width : 70%;
+	height : 100%;
+	float : left;
+	
+}
+.logonbox-title{
+	padding-left : 25px;
+	width : 100%;
+	height : 25%;
+	background-color : gray;
+	
+}
+.logonbox-title h3{
+	
+	display:inline-block;
+}
+
+.logonbox-datawrap3{
+	width:100%;
+	height : 75%;
+}	
+.logonbox-datatitle{
+	width : 30%;
+	height: 100%;
+	
+	float : left;
+}
+.datatitle-id{
+	padding-top:5px;
+	padding-left : 10px;
+	width: 100%;
+	height : 20%;
+	
+}	
+.datatitle-blank{
+	width : 100%;
+	height : 20%;
+}
+.datatitle-point{
+	padding-left : 10px;
+	width:100%;
+	height : 20%;
+	
+}
+.datatitle-grade{
+	padding-left : 10px;
+	width:100%;
+	height : 20%;
+	
+}
+.logonbax-data{
+	width:70%;
+	height:100%;
+	
+	float : left;
+}
+.data-id{
+	padding-top:5px;
+	width : 100%;
+	height : 20%;
+	background-color : white;
+}
+.data-blank{
+	width : 100%;
+	height : 20%;
+}
+.data-point{
+	width : 100%;
+	height : 20%;
+	
+}
+.data-grade{
+	width : 100%;
+	height : 20%;
+}
+.demo-1 main::after {
+	content: '';
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	pointer-events: none;
+	top: 0;
+	left: 0;
+	background: linear-gradient(135deg, transparent, rgba(50, 63, 92, 0.6));
+	z-index:0;
+}
+.boardtitle{
+	width : 80%;
+	height : 60px;
+	
+}
+.boardtitle2{
+	padding-left : 15%;
+	width:80%;
+	height : 100px;
+	display:inline-block;
+}
+.board-wrap{
+	padding-left : 10%;
+	padding-right : 5%;
+	width : 100%;
+	height : 500px;
+	
+}
+table{
+	width:100%;
+	
+}
+
+#board-title-a{
+	position : relative;
+	z-index : 1;
+}
+.bottom-nav{
+	width : 100%;
+	height : auto;
+	background-color : red;
+}
+.paging-box{
+	
+	width : 90%;
+	height : auto;
+	float: left;
+	text-align : center;
+}
+.paging {
+	padding-top : 5px;
+	padding-left : 10px;
+}
+#btndiv{
+	width : 10%;
+	height: auto;
+	float : left;
+	
+}
+#writebt{
+	position:absolute;
+	z-index : 1; 
+}
