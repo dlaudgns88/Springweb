@@ -2,6 +2,7 @@
 ## 팀프로젝트 
 ### 구독서비스 플랫폼구성
 
+### demo : [https://dlaudgns88.github.io/testpp.github.io/](https://dlaudgns88.github.io/testpp.github.io//)
 ## 프로젝트 기간 
 ### 22.05.30~22.06.21
 
