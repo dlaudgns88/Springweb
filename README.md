@@ -15,5 +15,5 @@
 ### DB
 ### Spring
 
-### 기술 명세서 : [링크](https://docs.google.com/spreadsheets/d/1MSBW9jMs25OXjBRrBZueDdgOLqjnCVpS6yWhdmQluSA/edit#gid=0/)
+### 기술 명세서 : [https://docs.google.com/spreadsheets/d/1MSBW9jMs25OXjBRrBZueDdgOLqjnCVpS6yWhdmQluSA/edit#gid=0](https://docs.google.com/spreadsheets/d/1MSBW9jMs25OXjBRrBZueDdgOLqjnCVpS6yWhdmQluSA/edit#gid=0/)
  
