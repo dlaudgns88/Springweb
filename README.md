@@ -6,8 +6,13 @@
 ### 22.05.30~22.06.21
 
 ## 개발 목표 
-### 스프링 Framework의 구조 이해, 부트스트랩 등 에서 제공되는 다양한 컴포넌트를 사용 및 Grid레이아웃을 이용한 반응형 웹페이지 구성,
-### MVC패턴을 활용한 웹페이지 구축
+### 스프링 Framework의 구조 이해, 부트스트랩 등 에서 제공되는 다양한 컴포넌트를 사용 및 Grid레이아웃을 이용한 반응형 웹페이지 구성, MVC패턴을 활용한 웹페이지 구축
+
+## 사용 기술
+### Java
+### JS
+### DB
+### Spring
 
 ### 기술 명세서 : [링크](https://docs.google.com/spreadsheets/d/1MSBW9jMs25OXjBRrBZueDdgOLqjnCVpS6yWhdmQluSA/edit#gid=0/)
  
