@@ -1,6 +1,8 @@
 # Spring Web Project
 ## 팀프로젝트 
 ### 구독서비스 플랫폼구성
+## 팀원
+### 이명훈, 박예람, 정샘
 
 ![main](https://user-images.githubusercontent.com/103983433/174878419-5f281fe5-75a7-42ed-a80c-f6714e92a58f.PNG)
 
