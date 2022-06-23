@@ -23,4 +23,5 @@
 
 ## 기술 명세서  
 ### 링크 : [https://docs.google.com/spreadsheets/](https://docs.google.com/spreadsheets/d/1MSBW9jMs25OXjBRrBZueDdgOLqjnCVpS6yWhdmQluSA/edit?usp=sharing/)
- 
+## PPT
+### [SpringWeb 프로젝트ppt.pptx](https://github.com/dlaudgns88/Springweb/files/8963946/22.06.14.ppt.pptx)
