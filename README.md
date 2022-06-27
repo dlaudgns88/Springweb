@@ -25,3 +25,12 @@
 ### 링크 : [https://docs.google.com/spreadsheets/](https://docs.google.com/spreadsheets/d/1MSBW9jMs25OXjBRrBZueDdgOLqjnCVpS6yWhdmQluSA/edit?usp=sharing/)
 ## PPT
 ### [SpringWeb 프로젝트ppt.pptx](https://github.com/dlaudgns88/Springweb/files/8963946/22.06.14.ppt.pptx)
+
+## 수정 방향
+### 1. 스크롤시 헤더부분 메인부분만 스크롤 가능하도록 설정 06/27 완
+### 2. 회원가입시 주소입력부 네이버맵 API 도입하여 설정 
+### 3. 회원가입, 로그인부 별도 JSP작성,CSS 설정
+####   (컨트롤러에 요청 추가할것)
+### 4. 회원가입 제약조건 설정을 통하여 유효성검사 실시하도록 설정
+####  (아이디 중복체크 버튼 새로 생성, 이후에 중복체크후 alter창 띠우도록 설정)
+### 5. 중복요청되는 부분 수정 
