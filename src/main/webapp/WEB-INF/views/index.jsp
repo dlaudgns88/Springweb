@@ -48,7 +48,7 @@
 }
 </style>
 <body class="demo-1">
-	<!-- 헤더부분 -->
+	<!-- 헤더부분수정 -->
 	<header>
 		<div class="top-nav">
 			<div id="nav-header">
