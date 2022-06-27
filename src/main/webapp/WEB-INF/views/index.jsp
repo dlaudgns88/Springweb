@@ -32,16 +32,15 @@
 <scripttk
 	src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
 	integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
-	crossorigin="anonymous"></script>
+	crossorigin="anonymous"> </script>
 <link rel="stylesheet"
 	href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
-
 </head>
 <style>
 .grid__img {
-	transition:all 0.9s, color 0.3; 
-	
+	transition: all 0.9s, color 0.3;
 }
+
 .grid__img :hover {
 	box-shadow: 200px 0 0 0 rgba(0, 0, 0, 0.25) inset, -200px 0 0 0
 		rgba(0, 0, 0, 0.25) inset;
@@ -49,11 +48,10 @@
 }
 </style>
 <body class="demo-1">
-
-	<main>
+	<!-- 헤더부분 -->
+	<header>
 		<div class="top-nav">
 			<div id="nav-header">
-
 				<button class="w3-button w3-teal w3-xlarge" onclick="w3_open()">☰</button>
 
 				<div class="w3-sidebar w3-bar-block w3-border-right"
@@ -66,9 +64,7 @@
 						href="<%=request.getContextPath()%>/board"
 						class="w3-bar-item w3-button">Board</a>
 				</div>
-
 			</div>
-
 			<div id="nav-blank"></div>
 			<c:set var="nowuser" value="${loginuser }" />
 			<c:choose>
@@ -78,8 +74,11 @@
 				</c:when>
 
 			</c:choose>
-
+			
 		</div>
+	</header>
+	<main>
+		
 
 
 		<div id="headerwrap">
@@ -286,8 +285,8 @@
 							class="grid__title">${sublist.r_memo }</span>
 					</a></li>
 				</c:forEach>
-				
-				
+
+
 			</ul>
 
 		</div>
@@ -357,14 +356,14 @@
 		function w3_open() {
 			document.getElementById("mySidebar").style.display = "block";
 			document.getElementById("headerwrap").style.marginLeft = "10%";
-			document.getElementById("gridmenu").style.marginLeft = "30%";
+			document.getElementById("gridmenu").style.marginLeft = "25%";
 
 		}
 
 		function w3_close() {
 			document.getElementById("mySidebar").style.display = "none";
 			document.getElementById("headerwrap").style.marginLeft = "0%";
-			document.getElementById("gridmenu").style.marginLeft = "20%";
+			document.getElementById("gridmenu").style.marginLeft = "15%";
 		}
 		function addsub() {
 			var popupWidth = 600;
