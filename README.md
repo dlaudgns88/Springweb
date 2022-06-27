@@ -25,3 +25,5 @@
 ### 링크 : [https://docs.google.com/spreadsheets/](https://docs.google.com/spreadsheets/d/1MSBW9jMs25OXjBRrBZueDdgOLqjnCVpS6yWhdmQluSA/edit?usp=sharing/)
 ## PPT
 ### [SpringWeb 프로젝트ppt.pptx](https://github.com/dlaudgns88/Springweb/files/8963946/22.06.14.ppt.pptx)
+## 수정사항
+### 스크롤시 헤더부분 메인부분만 스크롤 가능하도록 설정 수정중
