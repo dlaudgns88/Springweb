@@ -5,6 +5,7 @@
 	height: 52px;
 	background-color : darkgray;
 	position: fixed;
+	
 	height: 52px;
 }
 #nav-header {
@@ -24,7 +25,7 @@
 	width: 8%;
 	height: 52px;
 	float: left;
-
+	z-index : 1000;
 	padding-top: 10px;
 	text-align: center;
 	cursor : pointer;
@@ -36,6 +37,7 @@
 	cursor: pointer;
 	padding-top: 10px;
 	text-align: center;
+	z-index : 1000;
 }
 
 .demo-1 main::after {

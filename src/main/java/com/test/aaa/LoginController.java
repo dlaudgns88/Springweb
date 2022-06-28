@@ -48,6 +48,13 @@ public class LoginController {
 		
 		return "redirect:/";
 	}
+	@RequestMapping(value = "/signup", method = RequestMethod.GET)
+	public String signup(Locale locale, Model model ) throws Exception {
+		
+		
+		
+		return "signup";
+	}
 	@RequestMapping(value = "/logout", method = RequestMethod.GET)
 	public String logout(Locale locale, Model model ,@ModelAttribute memberVO mvo, HttpSession session) throws Exception {
 		session.invalidate();

@@ -31,25 +31,14 @@
 					<button onclick="w3_close()" class="w3-bar-item w3-large">Close
 						&times;</button>
 					<a href="<%=request.getContextPath()%>/"
-						class="w3-bar-item w3-button">Home</a> <a
-						href="<%=request.getContextPath()%>/shop"
-						class="w3-bar-item w3-button">PointShop</a> <a
-						href="<%=request.getContextPath()%>/board"
+						class="w3-bar-item w3-button">Home</a> 
+					 <a	href="<%=request.getContextPath()%>/board"
 						class="w3-bar-item w3-button">Board</a>
 				</div>
 
 			</div>
 
-			<div id="nav-blank"></div>
-			<c:set var="nowuser" value="${loginuser }" />
-			<c:choose>
-				<c:when test="${empty nowuser}">
-					<div id="nav-login">Login</div>
-					<div id="nav-signup">Sign up</div>
-				</c:when>
-
-			</c:choose>
-
+			
 		</div>
 	</main>
 
